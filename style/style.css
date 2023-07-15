@@ -1,0 +1,255 @@
+/*reset*/
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  button {
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  html *,
+  ::after,
+  ::before {
+    box-sizing: inherit;
+  }
+  
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  font,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  :focus {
+    outline: 0;
+  }
+  body {
+    line-height: 1;
+    color: black;
+    background: white;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  
+  img {
+    display: block;
+  }
+  /*style*/
+  .error-text {
+    color: red;
+    font-size: 80px;
+  }
+  
+  .header-title {
+    color:  #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .header {
+    background-image: url(../1625782289_12-phonoteka-org-p-anime-art-shirokii-krasivo-12.png);
+    background-repeat: repeat;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #ffffff;
+  }
+  
+  .form {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .form-btn {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 20px;
+    border: 5px solid #ffffff;
+  }
+  .form-types{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: green;
+    background-color: transparent;
+  }
+  .form-label{
+    display: flex;
+  }
+  .form-div{
+    display: flex;
+    margin-top: 10px;
+  }
+  .form-h3{
+    color: #fff;
+    font-size: 30px;
+  }
+  .anime-cont{
+    position: relative;
+    overflow: hidden;  
+  }
+  .anime-list{
+    width: 1140px;
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+  }
+  .anime-card{
+    position: relative;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 300px;
+  }
+  .anime-name {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .anime-link{
+    display: block;
+    padding: 30px 15px;
+  }
+  .anime__raiting {
+    font-size: 16px;
+  }
+  .anime-card:hover .anime-text{
+    transform: translateY(0);
+  }
+  .anime-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(100%);
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .arrow-list{
+    display: flex;
+    gap: 500px;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .arrow-list-btn{
+    font-size: 50px;
+    padding: 5px 10px;
+    background-color: transparent;
+  }
+  .anime-card:hover {
+    transform: translateY(0);
+  }
+  .rating-list {
+    display: flex;
+    font-size: 24px;
+    color: #000;
+    transform: translateY(135%);
+    position: absolute;
+    top: 320px;
+    overflow:initial;
+  }
+  .rating-item{
+    overflow: hidden;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .rating-item::before {
+    content: "★★★★★";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffff00;
+  }
+  
+  .footer {
+    background-image: url(../1625782289_12-phonoteka-org-p-anime-art-shirokii-krasivo-12.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 500px;
+  }
+  .none {
+    display: none;
+  }
+  
+  .footer-text{
+    font-size: 40px;
+    color: #fff;
+    opacity: 0.3;
+  }
